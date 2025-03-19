@@ -1,0 +1,125 @@
+header {
+  display: flex;
+  max-width: 1600px;
+  width: 100%;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: #e2dede solid 1px;
+position: fixed;
+z-index: 1;
+background-color: rgba(247, 248, 250, 1);
+  .left {
+    display: flex;
+    gap: 40px;
+    button {
+      background-color: #ffffff;
+      border-radius: 100px;
+      border: transparent solid 1px;
+      width: 40px;
+      height: 40px;
+      margin: 10px 0;
+      box-shadow: rgba(38, 51, 77, 0.03);
+    }
+    h2 {
+      color: rgba(77, 94, 128, 1);
+      font-family: sans-serif;
+      font-weight: 700;
+      line-height: 30px;
+      font-size: 16px;
+      margin: 15px 0;
+    }
+  }
+  .menu {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    margin-left: -70px;
+    a {
+      color: rgba(125, 143, 179, 1);
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 25px;
+    }
+    button {
+      width: 30px;
+      height: 30px;
+      background-color: transparent;
+      border-radius: 50%;
+      border: transparent 1px solid;
+      cursor: pointer;
+      img {
+        width: 16px;
+        height: 4px;
+      }
+    }
+  }
+  .search-line {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    height: 50px;
+    border: transparent 1px solid;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    margin-left: -70px;
+    img:first-of-type {
+      width: 17px;
+      height: 17px;
+      margin: 17px 25px;
+    }
+    img:last-of-type {
+      width: 30px;
+      height: 30px;
+      margin: 10px 25px;
+      cursor: pointer;
+    }
+    input {
+      width: 200px;
+      height: 20px;
+      border: none;
+      color: rgba(173, 184, 204, 1);
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: 700;
+      padding: 25px 0;
+      margin-left: -70px;
+      &::placeholder {
+        color: rgba(173, 184, 204, 1);
+      }
+    }
+  }
+  .right {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+    p {
+      font-size: 13px;
+      font-weight: 700;
+      color: rgba(107, 122, 153, 1);
+      padding: 10px 0;
+      margin-left: -10px;
+    }
+    button {
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: rgba(38, 51, 77, 0.03);
+      width: 40px;
+      height: 40px;
+      border-radius: 100px;
+      border: transparent 1px solid;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+

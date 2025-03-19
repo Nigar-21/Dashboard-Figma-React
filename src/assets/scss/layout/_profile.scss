@@ -1,0 +1,99 @@
+.profile {
+    height: 550px;
+    margin-top: 100px;
+    padding: 0 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s all ease-in-out;
+
+  
+    .profilePic {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        button {
+          background-color: rgba(255, 255, 255, 1);
+          border: transparent;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          img {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+      .pic {
+        margin: 0 auto;
+        img {
+          width: 100px;
+          height: 80px;
+        }
+      }
+      h2 {
+        color: rgba(107, 122, 153, 1);
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+      }
+      p {
+        color: rgba(173, 184, 204, 1);
+        font-size: 12px;
+        text-align: center;
+      }
+      table {
+       
+        border-radius: 10px;
+        overflow: hidden;
+        border-collapse: collapse;
+
+        img {
+          width: 20px;
+          height: 20px;
+          margin: 5px 15px;
+        }
+        td {
+          border: rgba(173, 184, 204, 1) 1px solid;
+
+          padding: 17px;
+          &:hover {
+          p{
+              color: rgba(51, 97, 255, 1);
+          }
+            cursor: pointer;
+            background-color: #ffffff;
+            padding: 20px;
+           border: none;
+            border-radius: 10px;
+            position: absolute;
+          }
+        }
+      }
+    }
+    .socials{
+        border: rgba(173, 184, 204, 1) 1px solid;
+        border-radius: 20px;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        img{
+            width: 15px;
+            height: 15px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+  }
+    .closed {
+       display: none;
+       
+      }

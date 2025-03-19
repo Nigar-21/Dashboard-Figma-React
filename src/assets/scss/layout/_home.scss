@@ -1,0 +1,357 @@
+.home{
+    border: rgba(173, 184, 204, 1) 1px solid;
+    border-radius: 10px;
+   margin-top: 90px;
+   width: 100%;
+   transition: 0.3s all ease-in-out;
+
+    .header{
+        display: flex;
+        justify-content:space-between ;
+        flex-direction: row;
+        align-items: center;
+        border-bottom:rgba(173, 184, 204, 1) 1px solid ;
+        gap: 150px;
+        padding: 0 40px;
+    .links{
+        display: flex;
+        gap: 25px;
+      
+        a{
+            display: inline-block;
+            min-width: 90px;
+            color: rgba(125, 143, 179, 1);
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 20px;
+            padding: 18px 0;
+            &:hover{
+                color: rgba(51, 97, 255, 1);
+                border-bottom: rgba(51, 97, 255, 1) solid 1px;
+                transition: none;
+             
+            }
+            img{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                margin-right: 8px;
+            }
+            
+        }
+    }
+    .search{
+        width: 220px;
+        border: #ffffff 1px solid;
+        border-radius: 20px;
+        background-color: #ffffff;
+        padding: 5px 10px;
+        input{
+            width: 100px;
+            border: none;
+            background-color: transparent;
+            
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-left: 10px;
+    &::placeholder{
+        color: rgba(125, 143, 179, 1);
+     
+    }
+        }
+    }
+    }
+    .dashboards{
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+       position: relative;
+      padding: 20px 40px;
+      .head{
+        width: 240px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 16px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        .text{
+            display: flex;
+            gap: 10px;
+           
+align-items: center;
+img:first-of-type{
+margin-left: -16px;
+}
+p{
+
+color: rgba(77, 94, 128, 1);
+font-size: 12px;
+font-weight: 700;
+}
+        }
+        .buttons{
+            display: flex;
+            gap: 15px;
+            button{
+                background-color: transparent;
+                border: none;
+            }
+        }
+      }
+      .pic{
+        display: flex;
+        flex-direction: column;
+        &:hover{
+            border: rgba(255, 102, 51, 1) 2px solid;
+            box-shadow: rgba(38, 51, 77, 0.03);
+            cursor: pointer;
+           }
+        img:first-of-type{
+          width: 100%;
+            height: 160px;
+          
+           }
+     .content{
+        display: flex;
+       flex-direction: column;
+       gap: 10px;
+       width: 100%;
+       background-color: #ffffff;
+       border-radius: 5px; 
+       
+      
+        .avatar{
+            display: flex;
+            justify-content: space-between;
+            color: rgba(173, 184, 204, 1);
+            font-size: 11px;
+            font-weight: 700;
+            align-items: center;
+            img{
+                width: 18px;
+                height: 18px;
+            }
+
+        }
+        h3{
+            color: rgba(107, 122, 153, 1);
+            font-size: 12px;
+            font-weight: 700
+        }
+        .icons{
+            display: flex;
+          
+           align-items: center;
+            gap: 10px;
+            p{
+                color: rgba(107, 122, 153, 1);
+                font-size: 10px;
+                font-weight: 700;
+            }
+            img{
+                width: 15px;
+                height: 15px;
+            }
+        }
+     }
+      }
+      .tasks{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 5px; 
+        padding: 17px;
+       &:hover{
+        border: rgba(255, 102, 51, 1) 2px solid;
+        box-shadow: rgba(38, 51, 77, 0.03);
+        cursor: pointer;
+     
+       }
+         .avatar{
+             display: flex;
+             justify-content: space-between;
+             color: rgba(173, 184, 204, 1);
+             font-size: 11px;
+             font-weight: 700;
+             align-items: center;
+             p{
+                img{
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 10px;
+                }
+             }
+         
+            }
+            .buttons{
+                margin-top: 15px;
+                img{
+                    width: 18px;
+                    height: 18px;
+                margin: 5px;
+                }
+                button{
+                    border: none;
+                    border-radius: 5px;
+                    background-color: rgba(51, 97, 255, 1);
+                    color: #ffffff;
+                    padding: 10px;
+                    font-size: 10px;
+                    font-weight: 900;
+                    margin-left: 60px;
+                }
+            }
+            .images{
+                display: flex;
+                
+                img{
+                    border-radius: 50%;
+                }
+            }
+         }
+         h3{
+            color: rgba(107, 122, 153, 1);
+            font-size: 12px;
+            font-weight: 700
+        }
+      }
+      a:last-of-type{
+        color: rgba(107, 122, 153, 1);
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px;
+      }
+      .toDo{
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      min-width: 200px;
+      max-width: 320px;
+      width: 100%;
+      transition: 0.3s all ease-in-out;
+      }
+      .inWork{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        min-width: 200px;
+        max-width: 320px;
+        width: 100%;
+        transition: 0.3s all ease-in-out;
+      }
+      .review{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        min-width: 200px;
+        max-width: 320px;
+        width: 100%;
+        transition: 0.3s all ease-in-out;
+      }
+      .done{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        min-width: 200px;
+        max-width: 320px;
+        width: 100%;
+        transition: 0.3s all ease-in-out;
+      }
+      .apps{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        max-width: 450px;
+        width: 100%;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 10px;
+        .head{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .text{
+                display: flex;
+                gap: 15px;
+                color: rgba(77, 94, 128, 1);
+                font-size: 16px;
+                font-weight: 700;
+            
+            }
+            button{
+                border: none;
+                background-color: transparent;
+                margin-left: 100px;
+            }
+        }
+        .mid{
+            display: flex;
+            gap: 10px;
+            padding: 15px 0 30px;
+            justify-content: space-around;
+            color: rgba(77, 94, 128, 1);
+            font-size: 12px;
+            font-weight: 700;
+            position: relative;
+         &::after{
+            content: "";
+            height: 1px;
+            width: 450px;
+            background-color: rgb(228, 228, 233) ;
+            position: absolute;
+            bottom: 0;
+            
+         }
+            img{
+                width: 18px;
+                height: 18px;
+                margin-right: 10px;
+            }
+            .left{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .right{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+        .foot{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 15px;
+            margin-top: 20px;
+          
+            p{
+                color: rgba(125, 143, 179, 1);
+                font-size: 12px;
+                font-weight: 900;
+            }
+            span{
+                display: block;
+                color: rgba(77, 94, 128, 1);
+                font-size: 12px;
+                font-weight: 900;
+            }
+            button{
+                background-color: rgba(41, 204, 57, 1);
+                border: none;
+                border-radius: 50%;
+                box-shadow: 0px 10px 30px 0px rgba(41, 204, 57, 0.2);
+
+                margin-left: 20px;
+            }
+        }
+    }
+    }
