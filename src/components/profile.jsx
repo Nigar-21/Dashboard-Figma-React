@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {  Link } from 'react-router-dom';
 export default function Profile({isOpen}) {
   return (
     <div className={isOpen ? "profile" : "closed"}>
@@ -23,7 +23,7 @@ export default function Profile({isOpen}) {
          
           <td>
             <img src="./assets/images/16.png" alt="" />
-            <p>Dashboard</p>
+   <Link to="/"> <p>Dashboard</p></Link>
           </td>
           <td>
             <img src="./assets/images/17.png" alt="" />
@@ -53,7 +53,7 @@ export default function Profile({isOpen}) {
         <tr>
           <td>
             <img src="./assets/images/21.png" alt="" />
-            <p>Calendars</p>
+           <Link to="calendar"> <p>Calendars</p></Link>
           </td>
           <td>
             <img src="./assets/images/22.png" alt="" />
